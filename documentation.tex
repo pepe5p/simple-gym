@@ -278,6 +278,7 @@ użycia:}}{Opisy przypadków użycia:}}\label{h.oj1ynmpx01z3}}
 personalnego:}}{Panel trenera personalnego:}}\label{h.9umzk2qmsz4g}}
 
 {\includegraphics{diagrams/use_cases/trener_personalny.png}}
+{\includegraphics{diagrams/class/trener_personalny_klasy.png}}
 
 \begin{enumerate}
 \tightlist
@@ -286,8 +287,6 @@ personalnego:}}{Panel trenera personalnego:}}\label{h.9umzk2qmsz4g}}
 \end{enumerate}
 
 {\includegraphics{diagrams/sequence/tworzenie_planu_treningu.png}}
-
-{\includegraphics{diagrams/state/tworzenie_planu_treningu.png}}
 
 {}
 
@@ -351,6 +350,8 @@ treningowego.}
 \item
   {Edytuj plan treningowy}
 \end{enumerate}
+
+{\includegraphics{diagrams/sequence/edycja_planu_treningowego.png}}
 
 {Aktorzy biorący udział: Trener personalny}
 
@@ -419,6 +420,7 @@ treningowego.}
   {Usuń plan treningowy}
 \end{enumerate}
 
+{\includegraphics{diagrams/sequence/usun_plan_treningowy.png}}
 {Aktorzy biorący udział: Trener personalny}
 
 {Cel przypadku: Umożliwienie trenerowi personalnemu usunięcia planu
@@ -701,6 +703,7 @@ rehabilitacji, skutkuje to informacją systemu.}
 dietetyka:}}{Panel dietetyka:}}\label{h.ks35fdzbeyq3}}
 
 {\includegraphics{diagrams/use_cases/dietetyk.png}}
+{\includegraphics{diagrams/class/dietetyk.png}}
 
 \begin{enumerate}
 \setcounter{enumi}{6}
@@ -708,6 +711,8 @@ dietetyka:}}{Panel dietetyka:}}\label{h.ks35fdzbeyq3}}
 \item
   {Stwórz plan dietetyczny}
 \end{enumerate}
+
+{\includegraphics{diagrams/sequence/dietetyk_stworz_plan.png}}
 
 {Aktorzy biorący udział: Dietetyk}
 
@@ -761,6 +766,8 @@ lekarzem lub innym specjalistą w celu dostosowania planu dietetycznego.}
 \item
   {Edytuj plan dietetyczny}
 \end{enumerate}
+
+{\includegraphics{diagrams/sequence/dietetyk_edytuj_plan.png}}
 
 {Aktorzy biorący udział: Dietetyk}
 
@@ -817,6 +824,7 @@ zaktualizowany}
   {Usuń plan dietetyczny}
 \end{enumerate}
 
+{\includegraphics{diagrams/sequence/dietetyk_usun_plan.png}}
 {Aktorzy biorący udział: Dietetyk}
 
 {Cel przypadku: Usunięcie planu dietetycznego dla danego użytkownika}
@@ -3380,12 +3388,13 @@ płatnościach i karnetach zostają zachowane.}
   {Użytkownik klika ``potwierdź''.}
 \end{enumerate}
 
-{\includegraphics{diagrams/use_cases/posrednik_platnosci.png}}
+\includegraphics{diagrams/use_cases/posrednik_platnosci.png}
 
 \hypertarget{h.q7tyc5bsqba0}{%
 \subsection{\texorpdfstring{{Panel zarządzania sklepem
 stacjonarnym:}}{Panel zarządzania sklepem stacjonarnym:}}\label{h.q7tyc5bsqba0}}
-
+\includegraphics{diagrams/use_cases/sklep.png}
+\includegraphics{diagrams/class/sklep_klasy.png}
 \begin{enumerate}
 \setcounter{enumi}{54}
 \tightlist
@@ -3393,6 +3402,9 @@ stacjonarnym:}}{Panel zarządzania sklepem stacjonarnym:}}\label{h.q7tyc5bsqba0}
   {Zamów produkt do sklepu}
 \end{enumerate}
 
+{\includegraphics{diagrams/sequence/sklep_zamow_produkt_do_sklepu.png}}
+
+\item
 {Aktorzy biorący udział: Administrator}
 
 {Cel przypadku: Zamówienie produktu do sklepu stacjonarnego}
@@ -3453,6 +3465,8 @@ bazie danych sklepu stacjonarnego.}
   {Sprawdź stan magazynowy sklepu}
 \end{enumerate}
 
+{\includegraphics{diagrams/sequence/sklep_sprawdz_stan_magazynowy.png}}
+
 {Aktorzy biorący udział: Administrator}
 
 {Cel przypadku: Sprawdzenie stanu magazynowego sklepu stacjonarnego}
@@ -3488,6 +3502,8 @@ stacjonarnego.}
 \item
   {Dodaj nowy produkt do sklepu}
 \end{enumerate}
+
+{\includegraphics{diagrams/sequence/sklep_dodaj_nowy_produkt.png}}
 
 {Aktorzy biorący udział: Administrator}
 
@@ -3537,64 +3553,14 @@ dla klientów.}
 
 {}
 
-{Przepis na kremówkę papieską:}
-
-{Składniki:}
-
-\begin{itemize}
-\tightlist
-\item
-  {500 ml śmietany kremówki}
-\item
-  {100 g cukru pudru}
-\item
-  {1 łyżeczka ekstraktu z wanilii}
-\item
-  {5 żółtek jajek}
-\item
-  {2 łyżki skrobi ziemniaczanej}
-\item
-  {1/4 szklanki mleka}
-\end{itemize}
-
-{Przygotowanie:}
-
-\begin{enumerate}
-\tightlist
-\item
-  {Śmietanę kremówkę wlej do garnka i zagotuj ją.}
-\item
-  {W osobnej misce wymieszaj żółtka jajek z cukrem pudrem i ekstraktem z
-  wanilii, aż do uzyskania gładkiej masy.}
-\item
-  {Dodaj skrobię ziemniaczaną do mleka i wymieszaj.}
-\item
-  {Dodaj mieszankę jajeczno-cukrową do zagotowanej śmietany i
-  wymieszaj.}
-\item
-  {Następnie dodaj rozpuszczoną skrobię ziemniaczaną i mleko do garnka z
-  resztą składników.}
-\item
-  {Mieszaj całość na niskim ogniu, aż do uzyskania konsystencji kremu.}
-\item
-  {Przelej krem do pucharków i odstaw do schłodzenia w lodówce na co
-  najmniej 2 godziny.}
-\item
-  {Przed podaniem udekoruj krem posiekanymi orzechami lub owocami.}
-\end{enumerate}
-
-{Uwaga: Przepis na kremówkę papieską jest łatwy do przygotowania, ale
-wymaga dokładnego mieszania i uważnej kontroli na ogniu, aby zapobiec
-przypaleniu.}
-
-{}
-
 \begin{enumerate}
 \setcounter{enumi}{57}
 \tightlist
 \item
   {Usuń produkt ze sklepu}
 \end{enumerate}
+
+{\includegraphics{diagrams/sequence/sklep_usun_produkt_ze_sklepu.png}}
 
 {Aktorzy biorący udział: Administrator}
 
@@ -3642,6 +3608,8 @@ proces usuwania i wraca do poprzedniego stanu.}
   {Edytuj produkt w sklepie}
 \end{enumerate}
 
+{\includegraphics{diagrams/sequence/sklep_edycja_produktu.png}}
+
 {Aktorzy biorący udział: Administrator}
 
 {Cel przypadku: Edycja produktu w sklepie}
@@ -3687,6 +3655,8 @@ proces edycji i wraca do poprzedniego stanu.}
 \item
   {Sprzedaj produkt ze sklepu}
 \end{enumerate}
+
+{\includegraphics{diagrams/sequence/sklep_sprzedaj_produkt.png}}
 
 {Aktorzy biorący udział: Administrator}
 
@@ -3900,6 +3870,27 @@ systemie.}
   {Dokonaj transakcji}
 \item
   {Zwróć środki}
+\end{enumerate}
+
+{Panel zarządzania sklepem:}
+
+{\includegraphics{diagrams/use_cases/sklep.png}}
+
+\begin{enumerate}
+\setcounter{enumi}{55}
+\tightlist
+\item
+{Zamów produkt do sklepu}
+\item
+{Sprawdź stan magazynowy sklepu}
+\item
+{Dodaj nowy produkt do sklepu}
+\item
+{Usuń produkt ze sklepu}
+\item
+{Edytuj produkt w sklepie}
+\item
+{Sprzedaj produkt ze sklepu}
 \end{enumerate}
 
 {}
